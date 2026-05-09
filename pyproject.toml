@@ -1,7 +1,0 @@
-[build-system]                              # 빌드 방법을 pip에게 알려주는 부분 (거의 고정)
-requires = ["setuptools>=61.0"]             # 빌드에 필요한 도구
-build-backend = "setuptools.build_meta"     # 실제로 빌드하는 백엔드
-
-[project]
-name = "mypkg"        # pip install 할 때 사용되는 이름 (배포용 이름)
-version = "0.1.0"     # 패키지 버전
